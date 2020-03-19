@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Views\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\frmConfiguracion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Views\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\frmConfiguracion.resx">
       <DependentUpon>frmConfiguracion.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,6 +137,60 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onions-food-vegetable-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avocado-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Break-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\036_033_hot_dish_catering_delivery_hotel_restaurant-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Food_Flat_-121-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carnes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thanksgiving_chicken_food-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamburger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camaron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cupcake_dessert_food-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sopa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food-ketchup-v1-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamburger1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_4._milk_shake_drink_cherry_sweet-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha-de-regresar-11549411785f8cghh98o2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

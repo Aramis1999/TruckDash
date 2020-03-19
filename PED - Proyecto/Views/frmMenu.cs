@@ -97,5 +97,12 @@ namespace PED___Proyecto
             lblFoodash.ForeColor = Color.White;
             lblFoodash.BorderStyle = BorderStyle.None;
         }
+
+        private void lblCreditos_Click(object sender, EventArgs e)
+        {
+          
+        }
+
+        
     }
 }

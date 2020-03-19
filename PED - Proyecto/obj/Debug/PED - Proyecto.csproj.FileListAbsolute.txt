@@ -26,3 +26,19 @@ C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED - Proyec
 C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.frmMenu.resources
 C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Properties.Resources.resources
 C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED - Proyecto.csproj.GenerateResource.Cache
+C:\Users\TEMP.DESKTOP-IC1IOTM.000.001.002.003.004.005\Desktop\ped\PED - Proyecto\bin\Debug\PED - Proyecto.exe.config
+C:\Users\TEMP.DESKTOP-IC1IOTM.000.001.002.003.004.005\Desktop\ped\PED - Proyecto\bin\Debug\PED - Proyecto.exe
+C:\Users\TEMP.DESKTOP-IC1IOTM.000.001.002.003.004.005\Desktop\ped\PED - Proyecto\bin\Debug\PED - Proyecto.pdb
+C:\Users\TEMP.DESKTOP-IC1IOTM.000.001.002.003.004.005\Desktop\ped\PED - Proyecto\bin\Debug\Interop.WMPLib.dll
+C:\Users\TEMP.DESKTOP-IC1IOTM.000.001.002.003.004.005\Desktop\ped\PED - Proyecto\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\TEMP.DESKTOP-IC1IOTM.000.001.002.003.004.005\Desktop\ped\PED - Proyecto\obj\Debug\PED - Proyecto.csprojAssemblyReference.cache
+C:\Users\TEMP.DESKTOP-IC1IOTM.000.001.002.003.004.005\Desktop\ped\PED - Proyecto\obj\Debug\Interop.WMPLib.dll
+C:\Users\TEMP.DESKTOP-IC1IOTM.000.001.002.003.004.005\Desktop\ped\PED - Proyecto\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\TEMP.DESKTOP-IC1IOTM.000.001.002.003.004.005\Desktop\ped\PED - Proyecto\obj\Debug\PED - Proyecto.csproj.ResolveComReference.cache
+C:\Users\TEMP.DESKTOP-IC1IOTM.000.001.002.003.004.005\Desktop\ped\PED - Proyecto\obj\Debug\PED___Proyecto.Views.Form1.resources
+C:\Users\TEMP.DESKTOP-IC1IOTM.000.001.002.003.004.005\Desktop\ped\PED - Proyecto\obj\Debug\PED___Proyecto.Views.frmConfiguracion.resources
+C:\Users\TEMP.DESKTOP-IC1IOTM.000.001.002.003.004.005\Desktop\ped\PED - Proyecto\obj\Debug\PED___Proyecto.frmMenu.resources
+C:\Users\TEMP.DESKTOP-IC1IOTM.000.001.002.003.004.005\Desktop\ped\PED - Proyecto\obj\Debug\PED___Proyecto.Properties.Resources.resources
+C:\Users\TEMP.DESKTOP-IC1IOTM.000.001.002.003.004.005\Desktop\ped\PED - Proyecto\obj\Debug\PED - Proyecto.csproj.GenerateResource.cache
+C:\Users\TEMP.DESKTOP-IC1IOTM.000.001.002.003.004.005\Desktop\ped\PED - Proyecto\obj\Debug\PED - Proyecto.exe
+C:\Users\TEMP.DESKTOP-IC1IOTM.000.001.002.003.004.005\Desktop\ped\PED - Proyecto\obj\Debug\PED - Proyecto.pdb
