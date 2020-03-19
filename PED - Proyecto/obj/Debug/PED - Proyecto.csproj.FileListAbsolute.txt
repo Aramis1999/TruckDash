@@ -12,3 +12,17 @@ C:\Users\Brandongeo\Documents\Visual Studio 2015\Projects\PED - Proyecto\PED - P
 C:\Users\Brandongeo\Documents\Visual Studio 2015\Projects\PED - Proyecto\PED - Proyecto\obj\Debug\Interop.WMPLib.dll
 C:\Users\Brandongeo\Documents\Visual Studio 2015\Projects\PED - Proyecto\PED - Proyecto\obj\Debug\AxInterop.WMPLib.dll
 C:\Users\Brandongeo\Documents\Visual Studio 2015\Projects\PED - Proyecto\PED - Proyecto\obj\Debug\PED - Proyecto.csproj.ResolveComReference.cache
+C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\bin\Debug\PED - Proyecto.exe.config
+C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\Interop.WMPLib.dll
+C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED - Proyecto.csproj.ResolveComReference.cache
+C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED - Proyecto.exe
+C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED - Proyecto.pdb
+C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\bin\Debug\PED - Proyecto.exe
+C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\bin\Debug\PED - Proyecto.pdb
+C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\bin\Debug\Interop.WMPLib.dll
+C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED - Proyecto.csprojResolveAssemblyReference.cache
+C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.frmMenu.resources
+C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Properties.Resources.resources
+C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED - Proyecto.csproj.GenerateResource.Cache
