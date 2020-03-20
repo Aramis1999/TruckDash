@@ -124,9 +124,6 @@
   <data name="onions-food-vegetable-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\onions-food-vegetable-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,8 +139,11 @@
   <data name="flecha-de-regresar-11549411785f8cghh98o2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flecha-de-regresar-11549411785f8cghh98o2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cupcake_dessert_food-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cupcake_dessert_food-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ambientacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ambientacion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1_4._milk_shake_drink_cherry_sweet-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1_4._milk_shake_drink_cherry_sweet-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,11 +151,14 @@
   <data name="7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hamburger" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hamburger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ambientacion_base" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ambientacion_base.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,6 +181,9 @@
   <data name="Thanksgiving_chicken_food-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Thanksgiving_chicken_food-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="sopa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sopa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Food_Flat_-121-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Food_Flat_-121-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -196,31 +202,52 @@
   <data name="8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sopa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sopa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cupcake_dessert_food-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cupcake_dessert_food-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FallIsComingRegular_Mx9B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FallIsComingRegular-Mx9B.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Break-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Break-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cake" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="50-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\50-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hamburger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hamburger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="camaron" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\camaron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ambientacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ambientacion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cinco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ambientacion_base" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ambientacion_base.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cuatro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cuatro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FallIsComingRegular_Mx9B" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FallIsComingRegular-Mx9B.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="dos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nueve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nueve.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ocho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ocho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="siete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\siete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tres" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tres.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

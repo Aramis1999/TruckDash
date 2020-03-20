@@ -23,5 +23,12 @@ namespace PED___Proyecto.Views
             f.Show();
             this.Hide();
         }
+
+        private void pictureBox19_Click(object sender, EventArgs e)
+        {
+            frmMenu f = new frmMenu();
+            f.Show();
+            this.Hide();
+        }
     }
 }

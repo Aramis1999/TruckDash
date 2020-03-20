@@ -16,5 +16,12 @@ namespace PED___Proyecto.Views
         {
             InitializeComponent();
         }
+
+        private void pictureBox18_Click(object sender, EventArgs e)
+        {
+            frmMenu f = new frmMenu();
+            f.Show();
+            this.Hide();
+        }
     }
 }

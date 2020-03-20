@@ -211,6 +211,17 @@
   <ItemGroup>
     <None Include="Resources\font1.bmp" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\cinco.png" />
+    <Content Include="Resources\cuatro.png" />
+    <Content Include="Resources\dos.png" />
+    <Content Include="Resources\nueve.png" />
+    <Content Include="Resources\ocho.png" />
+    <Content Include="Resources\seis.png" />
+    <Content Include="Resources\siete.png" />
+    <Content Include="Resources\tres.png" />
+    <Content Include="Resources\uno.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

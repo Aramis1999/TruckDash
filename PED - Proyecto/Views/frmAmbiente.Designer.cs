@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAmbiente));
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
@@ -49,6 +50,21 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.tercero = new System.Windows.Forms.PictureBox();
+            this.segundo = new System.Windows.Forms.PictureBox();
+            this.primero = new System.Windows.Forms.PictureBox();
+            this.uno = new System.Windows.Forms.PictureBox();
+            this.cuarto = new System.Windows.Forms.PictureBox();
+            this.dos = new System.Windows.Forms.PictureBox();
+            this.tres = new System.Windows.Forms.PictureBox();
+            this.cuatro = new System.Windows.Forms.PictureBox();
+            this.cinco = new System.Windows.Forms.PictureBox();
+            this.seis = new System.Windows.Forms.PictureBox();
+            this.siete = new System.Windows.Forms.PictureBox();
+            this.ocho = new System.Windows.Forms.PictureBox();
+            this.nueve = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
@@ -69,6 +85,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tercero)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.segundo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.primero)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uno)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cuarto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tres)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cuatro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cinco)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.seis)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siete)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ocho)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nueve)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox23
@@ -130,6 +159,7 @@
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox18.TabIndex = 80;
             this.pictureBox18.TabStop = false;
+            this.pictureBox18.Click += new System.EventHandler(this.pictureBox18_Click);
             // 
             // pictureBox15
             // 
@@ -311,6 +341,167 @@
             this.pictureBox6.TabIndex = 65;
             this.pictureBox6.TabStop = false;
             // 
+            // tercero
+            // 
+            this.tercero.BackColor = System.Drawing.Color.Transparent;
+            this.tercero.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tercero.Location = new System.Drawing.Point(126, 108);
+            this.tercero.Name = "tercero";
+            this.tercero.Size = new System.Drawing.Size(106, 86);
+            this.tercero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.tercero.TabIndex = 85;
+            this.tercero.TabStop = false;
+            // 
+            // segundo
+            // 
+            this.segundo.BackColor = System.Drawing.Color.Transparent;
+            this.segundo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.segundo.Location = new System.Drawing.Point(247, 108);
+            this.segundo.Name = "segundo";
+            this.segundo.Size = new System.Drawing.Size(106, 86);
+            this.segundo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.segundo.TabIndex = 86;
+            this.segundo.TabStop = false;
+            // 
+            // primero
+            // 
+            this.primero.BackColor = System.Drawing.Color.Transparent;
+            this.primero.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.primero.Location = new System.Drawing.Point(372, 108);
+            this.primero.Name = "primero";
+            this.primero.Size = new System.Drawing.Size(106, 86);
+            this.primero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.primero.TabIndex = 87;
+            this.primero.TabStop = false;
+            // 
+            // uno
+            // 
+            this.uno.BackColor = System.Drawing.Color.Transparent;
+            this.uno.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.uno.Image = global::PED___Proyecto.Properties.Resources.uno;
+            this.uno.Location = new System.Drawing.Point(287, 732);
+            this.uno.Name = "uno";
+            this.uno.Size = new System.Drawing.Size(106, 86);
+            this.uno.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.uno.TabIndex = 88;
+            this.uno.TabStop = false;
+            // 
+            // cuarto
+            // 
+            this.cuarto.BackColor = System.Drawing.Color.Transparent;
+            this.cuarto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.cuarto.Location = new System.Drawing.Point(12, 108);
+            this.cuarto.Name = "cuarto";
+            this.cuarto.Size = new System.Drawing.Size(106, 86);
+            this.cuarto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.cuarto.TabIndex = 89;
+            this.cuarto.TabStop = false;
+            // 
+            // dos
+            // 
+            this.dos.BackColor = System.Drawing.Color.Transparent;
+            this.dos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dos.Image = global::PED___Proyecto.Properties.Resources.dos;
+            this.dos.Location = new System.Drawing.Point(287, 730);
+            this.dos.Name = "dos";
+            this.dos.Size = new System.Drawing.Size(106, 86);
+            this.dos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.dos.TabIndex = 90;
+            this.dos.TabStop = false;
+            // 
+            // tres
+            // 
+            this.tres.BackColor = System.Drawing.Color.Transparent;
+            this.tres.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tres.Image = global::PED___Proyecto.Properties.Resources.tres;
+            this.tres.Location = new System.Drawing.Point(287, 730);
+            this.tres.Name = "tres";
+            this.tres.Size = new System.Drawing.Size(106, 86);
+            this.tres.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.tres.TabIndex = 91;
+            this.tres.TabStop = false;
+            // 
+            // cuatro
+            // 
+            this.cuatro.BackColor = System.Drawing.Color.Transparent;
+            this.cuatro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.cuatro.Image = global::PED___Proyecto.Properties.Resources.cuatro;
+            this.cuatro.Location = new System.Drawing.Point(287, 730);
+            this.cuatro.Name = "cuatro";
+            this.cuatro.Size = new System.Drawing.Size(106, 86);
+            this.cuatro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.cuatro.TabIndex = 92;
+            this.cuatro.TabStop = false;
+            // 
+            // cinco
+            // 
+            this.cinco.BackColor = System.Drawing.Color.Transparent;
+            this.cinco.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.cinco.Image = global::PED___Proyecto.Properties.Resources.cinco;
+            this.cinco.Location = new System.Drawing.Point(287, 732);
+            this.cinco.Name = "cinco";
+            this.cinco.Size = new System.Drawing.Size(106, 86);
+            this.cinco.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.cinco.TabIndex = 93;
+            this.cinco.TabStop = false;
+            // 
+            // seis
+            // 
+            this.seis.BackColor = System.Drawing.Color.Transparent;
+            this.seis.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.seis.Image = global::PED___Proyecto.Properties.Resources.seis;
+            this.seis.Location = new System.Drawing.Point(287, 728);
+            this.seis.Name = "seis";
+            this.seis.Size = new System.Drawing.Size(106, 86);
+            this.seis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.seis.TabIndex = 94;
+            this.seis.TabStop = false;
+            // 
+            // siete
+            // 
+            this.siete.BackColor = System.Drawing.Color.Transparent;
+            this.siete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.siete.Image = global::PED___Proyecto.Properties.Resources.siete;
+            this.siete.Location = new System.Drawing.Point(287, 728);
+            this.siete.Name = "siete";
+            this.siete.Size = new System.Drawing.Size(106, 86);
+            this.siete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.siete.TabIndex = 95;
+            this.siete.TabStop = false;
+            // 
+            // ocho
+            // 
+            this.ocho.BackColor = System.Drawing.Color.Transparent;
+            this.ocho.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ocho.Image = global::PED___Proyecto.Properties.Resources.ocho;
+            this.ocho.Location = new System.Drawing.Point(287, 732);
+            this.ocho.Name = "ocho";
+            this.ocho.Size = new System.Drawing.Size(106, 86);
+            this.ocho.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ocho.TabIndex = 96;
+            this.ocho.TabStop = false;
+            // 
+            // nueve
+            // 
+            this.nueve.BackColor = System.Drawing.Color.Transparent;
+            this.nueve.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.nueve.Image = global::PED___Proyecto.Properties.Resources.nueve;
+            this.nueve.Location = new System.Drawing.Point(287, 731);
+            this.nueve.Name = "nueve";
+            this.nueve.Size = new System.Drawing.Size(106, 86);
+            this.nueve.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.nueve.TabIndex = 97;
+            this.nueve.TabStop = false;
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // timer2
+            // 
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
             // frmAmbiente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -318,6 +509,19 @@
             this.BackgroundImage = global::PED___Proyecto.Properties.Resources.Ambientacion_base;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1080, 720);
+            this.Controls.Add(this.nueve);
+            this.Controls.Add(this.ocho);
+            this.Controls.Add(this.siete);
+            this.Controls.Add(this.seis);
+            this.Controls.Add(this.cinco);
+            this.Controls.Add(this.cuatro);
+            this.Controls.Add(this.tres);
+            this.Controls.Add(this.dos);
+            this.Controls.Add(this.cuarto);
+            this.Controls.Add(this.uno);
+            this.Controls.Add(this.primero);
+            this.Controls.Add(this.segundo);
+            this.Controls.Add(this.tercero);
             this.Controls.Add(this.pictureBox23);
             this.Controls.Add(this.pictureBox20);
             this.Controls.Add(this.pictureBox21);
@@ -340,7 +544,9 @@
             this.Controls.Add(this.pictureBox6);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmAmbiente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmAmbiente";
+            this.Load += new System.EventHandler(this.frmAmbiente_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
@@ -361,6 +567,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tercero)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.segundo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.primero)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uno)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cuarto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tres)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cuatro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cinco)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.seis)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siete)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ocho)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nueve)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -387,5 +606,20 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox tercero;
+        private System.Windows.Forms.PictureBox segundo;
+        private System.Windows.Forms.PictureBox primero;
+        private System.Windows.Forms.PictureBox uno;
+        private System.Windows.Forms.PictureBox cuarto;
+        private System.Windows.Forms.PictureBox dos;
+        private System.Windows.Forms.PictureBox tres;
+        private System.Windows.Forms.PictureBox cuatro;
+        private System.Windows.Forms.PictureBox cinco;
+        private System.Windows.Forms.PictureBox seis;
+        private System.Windows.Forms.PictureBox siete;
+        private System.Windows.Forms.PictureBox ocho;
+        private System.Windows.Forms.PictureBox nueve;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer2;
     }
 }
