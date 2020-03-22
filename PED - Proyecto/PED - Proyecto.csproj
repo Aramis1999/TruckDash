@@ -46,6 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\Cliente.cs" />
+    <Compile Include="Class\Cola.cs" />
+    <Compile Include="Class\Nodo.cs" />
+    <Compile Include="Views\frmAlerta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmAlerta.Designer.cs">
+      <DependentUpon>frmAlerta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\frmAmbiente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +81,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Views\frmAlerta.resx">
+      <DependentUpon>frmAlerta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\frmAmbiente.resx">
       <DependentUpon>frmAmbiente.cs</DependentUpon>
     </EmbeddedResource>

@@ -65,6 +65,9 @@
             this.nueve = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.btnInicio = new System.Windows.Forms.Button();
+            this.btnEncolar = new System.Windows.Forms.Button();
+            this.btnDesccolar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
@@ -105,12 +108,13 @@
             this.pictureBox23.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
-            this.pictureBox23.Location = new System.Drawing.Point(1027, 650);
+            this.pictureBox23.Location = new System.Drawing.Point(1015, 650);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(50, 44);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox23.TabIndex = 84;
             this.pictureBox23.TabStop = false;
+            this.pictureBox23.Click += new System.EventHandler(this.pictureBox23_Click);
             // 
             // pictureBox20
             // 
@@ -153,7 +157,7 @@
             this.pictureBox18.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
-            this.pictureBox18.Location = new System.Drawing.Point(39, 650);
+            this.pictureBox18.Location = new System.Drawing.Point(12, 650);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(50, 44);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -502,6 +506,44 @@
             // 
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
+            // btnInicio
+            // 
+            this.btnInicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.btnInicio.Font = new System.Drawing.Font("Fall is Coming", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicio.Location = new System.Drawing.Point(469, 627);
+            this.btnInicio.Name = "btnInicio";
+            this.btnInicio.Size = new System.Drawing.Size(152, 57);
+            this.btnInicio.TabIndex = 98;
+            this.btnInicio.Text = "Iniciar";
+            this.btnInicio.UseVisualStyleBackColor = false;
+            this.btnInicio.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnEncolar
+            // 
+            this.btnEncolar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.btnEncolar.Font = new System.Drawing.Font("Fall is Coming", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEncolar.Location = new System.Drawing.Point(402, 627);
+            this.btnEncolar.Name = "btnEncolar";
+            this.btnEncolar.Size = new System.Drawing.Size(129, 48);
+            this.btnEncolar.TabIndex = 99;
+            this.btnEncolar.Text = "Encolar";
+            this.btnEncolar.UseVisualStyleBackColor = false;
+            this.btnEncolar.Visible = false;
+            this.btnEncolar.Click += new System.EventHandler(this.btnEncolar_Click);
+            // 
+            // btnDesccolar
+            // 
+            this.btnDesccolar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.btnDesccolar.Font = new System.Drawing.Font("Fall is Coming", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDesccolar.Location = new System.Drawing.Point(557, 627);
+            this.btnDesccolar.Name = "btnDesccolar";
+            this.btnDesccolar.Size = new System.Drawing.Size(129, 48);
+            this.btnDesccolar.TabIndex = 100;
+            this.btnDesccolar.Text = "Descolar";
+            this.btnDesccolar.UseVisualStyleBackColor = false;
+            this.btnDesccolar.Visible = false;
+            this.btnDesccolar.Click += new System.EventHandler(this.btnDesccolar_Click);
+            // 
             // frmAmbiente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -509,6 +551,9 @@
             this.BackgroundImage = global::PED___Proyecto.Properties.Resources.Ambientacion_base;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1080, 720);
+            this.Controls.Add(this.btnDesccolar);
+            this.Controls.Add(this.btnEncolar);
+            this.Controls.Add(this.btnInicio);
             this.Controls.Add(this.nueve);
             this.Controls.Add(this.ocho);
             this.Controls.Add(this.siete);
@@ -621,5 +666,8 @@
         private System.Windows.Forms.PictureBox nueve;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Button btnInicio;
+        private System.Windows.Forms.Button btnEncolar;
+        private System.Windows.Forms.Button btnDesccolar;
     }
 }

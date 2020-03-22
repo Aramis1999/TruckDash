@@ -62,3 +62,4 @@ C:\Users\José Morales\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED___Pro
 C:\Users\José Morales\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.frmMenu.resources
 C:\Users\José Morales\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Properties.Resources.resources
 C:\Users\José Morales\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED - Proyecto.csproj.GenerateResource.Cache
+C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Views.frmAlerta.resources
