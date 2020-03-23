@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PED___Proyecto.Class
 {
-    class Cliente
+    public class Cliente
     {
 
         //El id que determina cada cliente

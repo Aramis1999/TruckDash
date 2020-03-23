@@ -85,9 +85,29 @@ namespace PED___Proyecto.Class
             else primero = primero.sgte;
         }
 
+        public void extraerPrimero()
+        {
+            Cliente cliente = new Cliente();
+            Mesa mesa = new Mesa();
+
+            if (primero == null)
+            {
+                Console.WriteLine("Cola Vacia");
+            }
+            else
+            {
+                cliente = primero.info;
+                mesa.asignarMesa(cliente);
+                primero = primero.sgte;
+            }
+        }
+
         public void Mostrar()
         {
-            if (primero == null) MessageBox.Show("Cola vacia");
+            if (primero == null)
+            {
+                MessageBox.Show("Cola vacia");
+            }
             else
             {
                 string cadena = string.Empty;

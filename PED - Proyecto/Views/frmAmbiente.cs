@@ -19,11 +19,37 @@ namespace PED___Proyecto.Views
             InitializeComponent();
         }
 
+
         int total = 1;//variable que llevara la posicion del pictureBox
         //int esperando = 1;//variable que almacenara la cantidad de clientes que hay en la cola
         bool conto = true;//variable booleana que ayudara a controlar la ejecucion del timer1
         bool desplazamiento_terminado = false;
         Cola ColaEspera = new Cola();
+
+        public void asignar(int lugar)
+        {
+            if(lugar == 1)
+            {
+                ColaEspera.Mostrar();
+                ColaEspera.extraerPrimero();
+                total--;
+                primero.Image = segundo.Image;
+                segundo.Image = tercero.Image;
+                tercero.Image = cuarto.Image;
+                cuarto.Image = null;
+                ColaEspera.Mostrar();
+            }
+            else
+            {
+                ColaEspera.extraerPrimero();
+                total--;
+                primero.Image = segundo.Image;
+                segundo.Image = tercero.Image;
+                tercero.Image = cuarto.Image;
+                cuarto.Image = null;
+                ColaEspera.Mostrar();
+            }
+        }
 
         private void pictureBox18_Click(object sender, EventArgs e)
         {
@@ -338,6 +364,7 @@ namespace PED___Proyecto.Views
             btnInicio.Visible = false;
             btnEncolar.Visible = true;
             btnDesccolar.Visible = true;
+            btnAtender.Visible = true;
             ColaEspera.Mostrar();
         }
 
@@ -361,6 +388,12 @@ namespace PED___Proyecto.Views
         {
             Encolar();
             ColaEspera.Mostrar();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            frmLugarComer form = new frmLugarComer();
+            form.Show();
         }
     }
 }

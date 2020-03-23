@@ -63,3 +63,23 @@ C:\Users\José Morales\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED___Pro
 C:\Users\José Morales\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Properties.Resources.resources
 C:\Users\José Morales\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED - Proyecto.csproj.GenerateResource.Cache
 C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Views.frmAlerta.resources
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\bin\Debug\PED - Proyecto.exe.config
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\bin\Debug\PED - Proyecto.exe
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\bin\Debug\PED - Proyecto.pdb
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\bin\Debug\Interop.WMPLib.dll
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED - Proyecto.csprojAssemblyReference.cache
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\Interop.WMPLib.dll
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED - Proyecto.csproj.ResolveComReference.cache
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Views.frmAlerta.resources
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Views.frmAmbiente.resources
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Views.frmCreditos.resources
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Views.frmConfiguracion.resources
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.frmMenu.resources
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Properties.Resources.resources
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED - Proyecto.csproj.GenerateResource.cache
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED - Proyecto.exe
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED - Proyecto.pdb
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Views.frmComida.resources
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Views.frmLugarComer.resources

@@ -86,10 +86,9 @@
             pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             pictureBox2.ErrorImage = null;
             pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            pictureBox2.Location = new System.Drawing.Point(617, 154);
-            pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            pictureBox2.Location = new System.Drawing.Point(463, 125);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new System.Drawing.Size(180, 176);
+            pictureBox2.Size = new System.Drawing.Size(135, 143);
             pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 37;
             pictureBox2.TabStop = false;
@@ -100,10 +99,9 @@
             this.label1.BackColor = System.Drawing.Color.DarkGray;
             this.label1.Font = new System.Drawing.Font("Modern No. 20", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(535, 48);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(401, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(327, 62);
+            this.label1.Size = new System.Drawing.Size(261, 50);
             this.label1.TabIndex = 7;
             this.label1.Text = "CRÉDITOS";
             // 
@@ -112,10 +110,9 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(901, 449);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Location = new System.Drawing.Point(781, 365);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(196, 42);
+            this.label13.Size = new System.Drawing.Size(151, 33);
             this.label13.TabIndex = 48;
             this.label13.Text = "PR190012";
             // 
@@ -124,10 +121,9 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(901, 503);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Location = new System.Drawing.Point(781, 409);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(180, 42);
+            this.label12.Size = new System.Drawing.Size(140, 33);
             this.label12.TabIndex = 47;
             this.label12.Text = "RI190244";
             // 
@@ -136,10 +132,9 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(901, 550);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(781, 447);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(202, 42);
+            this.label11.Size = new System.Drawing.Size(156, 33);
             this.label11.TabIndex = 46;
             this.label11.Text = "MR141498";
             // 
@@ -148,10 +143,9 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(901, 601);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(781, 488);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(196, 42);
+            this.label10.Size = new System.Drawing.Size(151, 33);
             this.label10.TabIndex = 45;
             this.label10.Text = "ML161665";
             // 
@@ -160,10 +154,9 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(901, 651);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(781, 529);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(190, 42);
+            this.label9.Size = new System.Drawing.Size(147, 33);
             this.label9.TabIndex = 44;
             this.label9.Text = "ZF190595";
             // 
@@ -172,10 +165,9 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(389, 601);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(292, 488);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(450, 42);
+            this.label8.Size = new System.Drawing.Size(352, 33);
             this.label8.TabIndex = 43;
             this.label8.Text = "José Antonio Morales Lira";
             // 
@@ -184,10 +176,9 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(389, 550);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(292, 447);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(613, 42);
+            this.label7.Size = new System.Drawing.Size(477, 33);
             this.label7.TabIndex = 42;
             this.label7.Text = "Ernesto Antonio Montesino Rosales";
             // 
@@ -196,10 +187,9 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(389, 503);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(292, 409);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(518, 42);
+            this.label6.Size = new System.Drawing.Size(410, 33);
             this.label6.TabIndex = 41;
             this.label6.Text = "Benjamín Aramis Ruíz Iraheta ";
             // 
@@ -208,10 +198,9 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(389, 449);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(292, 365);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(617, 42);
+            this.label5.Size = new System.Drawing.Size(483, 33);
             this.label5.TabIndex = 40;
             this.label5.Text = "Brandon Giovanni Perdomo Ramos ";
             // 
@@ -220,10 +209,9 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(389, 647);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(292, 526);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(494, 42);
+            this.label4.Size = new System.Drawing.Size(387, 33);
             this.label4.TabIndex = 39;
             this.label4.Text = "Susan Abigail Zelaya Flores ";
             // 
@@ -232,20 +220,18 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(347, 359);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(260, 292);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(729, 43);
+            this.label3.Size = new System.Drawing.Size(577, 33);
             this.label3.TabIndex = 38;
             this.label3.Text = "Programación con estructuras de datos";
             // 
             // pictureBox17
             // 
             this.pictureBox17.Image = global::PED___Proyecto.Properties.Resources.sopa;
-            this.pictureBox17.Location = new System.Drawing.Point(1275, 474);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox17.Location = new System.Drawing.Point(956, 385);
             this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(135, 119);
+            this.pictureBox17.Size = new System.Drawing.Size(101, 97);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox17.TabIndex = 64;
             this.pictureBox17.TabStop = false;
@@ -253,10 +239,9 @@
             // pictureBox16
             // 
             this.pictureBox16.Image = global::PED___Proyecto.Properties.Resources._036_033_hot_dish_catering_delivery_hotel_restaurant_512;
-            this.pictureBox16.Location = new System.Drawing.Point(31, 474);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox16.Location = new System.Drawing.Point(23, 385);
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(135, 119);
+            this.pictureBox16.Size = new System.Drawing.Size(101, 97);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox16.TabIndex = 63;
             this.pictureBox16.TabStop = false;
@@ -264,10 +249,9 @@
             // pictureBox15
             // 
             this.pictureBox15.Image = global::PED___Proyecto.Properties.Resources.Break_512;
-            this.pictureBox15.Location = new System.Drawing.Point(31, 327);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox15.Location = new System.Drawing.Point(23, 266);
             this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(135, 119);
+            this.pictureBox15.Size = new System.Drawing.Size(101, 97);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox15.TabIndex = 62;
             this.pictureBox15.TabStop = false;
@@ -275,10 +259,9 @@
             // pictureBox14
             // 
             this.pictureBox14.Image = global::PED___Proyecto.Properties.Resources.Cupcake_dessert_food_512;
-            this.pictureBox14.Location = new System.Drawing.Point(1275, 309);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox14.Location = new System.Drawing.Point(956, 251);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(135, 119);
+            this.pictureBox14.Size = new System.Drawing.Size(101, 97);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 61;
             this.pictureBox14.TabStop = false;
@@ -286,10 +269,9 @@
             // pictureBox13
             // 
             this.pictureBox13.Image = global::PED___Proyecto.Properties.Resources.hamburger;
-            this.pictureBox13.Location = new System.Drawing.Point(1275, 154);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox13.Location = new System.Drawing.Point(956, 125);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(135, 119);
+            this.pictureBox13.Size = new System.Drawing.Size(101, 97);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox13.TabIndex = 60;
             this.pictureBox13.TabStop = false;
@@ -297,10 +279,9 @@
             // pictureBox12
             // 
             this.pictureBox12.Image = global::PED___Proyecto.Properties.Resources._19_512;
-            this.pictureBox12.Location = new System.Drawing.Point(1132, 36);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox12.Location = new System.Drawing.Point(849, 29);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(135, 119);
+            this.pictureBox12.Size = new System.Drawing.Size(101, 97);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 59;
             this.pictureBox12.TabStop = false;
@@ -308,10 +289,9 @@
             // pictureBox11
             // 
             this.pictureBox11.Image = global::PED___Proyecto.Properties.Resources.cake;
-            this.pictureBox11.Location = new System.Drawing.Point(1289, 15);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox11.Location = new System.Drawing.Point(967, 12);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(135, 119);
+            this.pictureBox11.Size = new System.Drawing.Size(101, 97);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 58;
             this.pictureBox11.TabStop = false;
@@ -319,10 +299,9 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::PED___Proyecto.Properties.Resources.food_ketchup_v1_512;
-            this.pictureBox10.Location = new System.Drawing.Point(1132, 752);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox10.Location = new System.Drawing.Point(849, 611);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(135, 119);
+            this.pictureBox10.Size = new System.Drawing.Size(101, 97);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 57;
             this.pictureBox10.TabStop = false;
@@ -330,10 +309,9 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = global::PED___Proyecto.Properties.Resources.camaron;
-            this.pictureBox9.Location = new System.Drawing.Point(1275, 613);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox9.Location = new System.Drawing.Point(956, 498);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(135, 119);
+            this.pictureBox9.Size = new System.Drawing.Size(101, 97);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 56;
             this.pictureBox9.TabStop = false;
@@ -341,10 +319,9 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::PED___Proyecto.Properties.Resources._1_4__milk_shake_drink_cherry_sweet_512;
-            this.pictureBox8.Location = new System.Drawing.Point(1289, 752);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox8.Location = new System.Drawing.Point(967, 611);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(135, 119);
+            this.pictureBox8.Size = new System.Drawing.Size(101, 97);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 55;
             this.pictureBox8.TabStop = false;
@@ -352,10 +329,9 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::PED___Proyecto.Properties.Resources.Thanksgiving_chicken_food_512;
-            this.pictureBox7.Location = new System.Drawing.Point(173, 752);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox7.Location = new System.Drawing.Point(130, 611);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(135, 119);
+            this.pictureBox7.Size = new System.Drawing.Size(101, 97);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 54;
             this.pictureBox7.TabStop = false;
@@ -363,10 +339,9 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::PED___Proyecto.Properties.Resources.Food_Flat__121_512;
-            this.pictureBox6.Location = new System.Drawing.Point(49, 613);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox6.Location = new System.Drawing.Point(37, 498);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(135, 119);
+            this.pictureBox6.Size = new System.Drawing.Size(101, 97);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 53;
             this.pictureBox6.TabStop = false;
@@ -374,10 +349,9 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::PED___Proyecto.Properties.Resources.carnes;
-            this.pictureBox5.Location = new System.Drawing.Point(16, 752);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Location = new System.Drawing.Point(12, 611);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(135, 119);
+            this.pictureBox5.Size = new System.Drawing.Size(101, 97);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 52;
             this.pictureBox5.TabStop = false;
@@ -385,10 +359,9 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::PED___Proyecto.Properties.Resources.avocado_512;
-            this.pictureBox4.Location = new System.Drawing.Point(49, 177);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Location = new System.Drawing.Point(37, 144);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(135, 119);
+            this.pictureBox4.Size = new System.Drawing.Size(101, 97);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 51;
             this.pictureBox4.TabStop = false;
@@ -396,10 +369,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PED___Proyecto.Properties.Resources.onions_food_vegetable_512;
-            this.pictureBox1.Location = new System.Drawing.Point(173, 15);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(130, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(135, 119);
+            this.pictureBox1.Size = new System.Drawing.Size(101, 97);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 50;
             this.pictureBox1.TabStop = false;
@@ -407,10 +379,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::PED___Proyecto.Properties.Resources._50_512;
-            this.pictureBox3.Location = new System.Drawing.Point(31, 36);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(23, 29);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(135, 119);
+            this.pictureBox3.Size = new System.Drawing.Size(101, 97);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 49;
             this.pictureBox3.TabStop = false;
@@ -420,9 +391,10 @@
             this.pictureBox19.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(682, 828);
+            this.pictureBox19.Location = new System.Drawing.Point(515, 667);
+            this.pictureBox19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(71, 43);
+            this.pictureBox19.Size = new System.Drawing.Size(50, 41);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox19.TabIndex = 81;
             this.pictureBox19.TabStop = false;
@@ -430,10 +402,10 @@
             // 
             // frmCreditos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(1440, 886);
+            this.ClientSize = new System.Drawing.Size(1080, 720);
             this.Controls.Add(this.pictureBox19);
             this.Controls.Add(this.pictureBox17);
             this.Controls.Add(this.pictureBox16);
@@ -465,7 +437,6 @@
             this.Controls.Add(pictureBox2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmCreditos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

@@ -30,5 +30,10 @@ namespace PED___Proyecto.Views
             f.Show();
             this.Hide();
         }
+
+        private void pictureBox18_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
