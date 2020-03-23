@@ -151,13 +151,7 @@ namespace PED___Proyecto.Views
             }
             else
             {
-                ColaEspera.extraerPrimero();
-                total--;
-                primero.Image = segundo.Image;
-                segundo.Image = tercero.Image;
-                tercero.Image = cuarto.Image;
-                cuarto.Image = null;
-                ColaEspera.Mostrar();
+                desencolar();
             }
         }
 
