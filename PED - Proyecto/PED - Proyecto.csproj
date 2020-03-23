@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\Asignar.cs" />
     <Compile Include="Class\Cliente.cs" />
     <Compile Include="Class\Cola.cs" />
     <Compile Include="Class\Mesa.cs" />
@@ -243,14 +244,23 @@
     <None Include="Resources\font1.bmp" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\cinco cc.png" />
     <Content Include="Resources\cinco.png" />
+    <Content Include="Resources\cuatro cc.png" />
     <Content Include="Resources\cuatro.png" />
+    <Content Include="Resources\dos cc.png" />
     <Content Include="Resources\dos.png" />
+    <Content Include="Resources\nueve cc.png" />
     <Content Include="Resources\nueve.png" />
+    <Content Include="Resources\ocho cc.png" />
     <Content Include="Resources\ocho.png" />
+    <Content Include="Resources\seis cc.png" />
     <Content Include="Resources\seis.png" />
+    <Content Include="Resources\siete cc.png" />
     <Content Include="Resources\siete.png" />
+    <Content Include="Resources\tres cc.png" />
     <Content Include="Resources\tres.png" />
+    <Content Include="Resources\unocc.png" />
     <Content Include="Resources\uno.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

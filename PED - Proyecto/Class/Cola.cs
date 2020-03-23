@@ -39,6 +39,13 @@ namespace PED___Proyecto.Class
             return valor;
         }
 
+        public int getTipoFirst()
+        {
+            int valor = 0;
+            valor = primero.info.Tipo;
+            return valor;
+        }
+
         public void Encolar(string dato)
         {
             Nodo aux = new Nodo();
@@ -88,7 +95,7 @@ namespace PED___Proyecto.Class
         public void extraerPrimero()
         {
             Cliente cliente = new Cliente();
-            Mesa mesa = new Mesa();
+            Asignar asignar = new Asignar();
 
             if (primero == null)
             {
@@ -97,7 +104,7 @@ namespace PED___Proyecto.Class
             else
             {
                 cliente = primero.info;
-                mesa.asignarMesa(cliente);
+                asignar.asignarMesa(cliente);
                 primero = primero.sgte;
             }
         }

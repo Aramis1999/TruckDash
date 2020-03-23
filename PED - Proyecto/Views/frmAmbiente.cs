@@ -26,12 +26,122 @@ namespace PED___Proyecto.Views
         bool desplazamiento_terminado = false;
         Cola ColaEspera = new Cola();
 
+
+        void asignarImg(Image image)
+        {
+            if (silla1.Image != null)
+            {
+                if (silla2.Image != null)
+                {
+                    if (silla3.Image != null)
+                    {
+                        if (silla4.Image != null)
+                        {
+                            if (silla5.Image != null)
+                            {
+                                if (silla6.Image != null)
+                                {
+                                    if (silla7.Image != null)
+                                    {
+                                        if (silla8.Image != null)
+                                        {
+                                            MessageBox.Show("Las sillas estan llenas (Grafico)");
+                                        }
+                                        else
+                                        {
+                                            silla8.Image = image;
+                                        }
+                                    }
+                                    else
+                                    {
+                                        silla7.Image = image;
+                                    }
+                                }
+                                else
+                                {
+                                    silla6.Image = image;
+                                }
+                            }
+                            else
+                            {
+                                silla5.Image = image;
+                            }
+                        }
+                        else
+                        {
+                            silla4.Image = image;
+                        }
+                    }
+                    else
+                    {
+                        silla3.Image = image;
+                    }
+                }
+                else
+                {
+                    silla2.Image = image;
+                }
+            }
+            else
+            {
+                silla1.Image = image;
+            }
+        }
+
+
+        void imagen(int tipo)
+        {
+            Image imagen = null;
+            switch (tipo)
+            {
+                case 1:
+                    imagen = Properties.Resources.uno;
+                    break;
+
+                case 2:
+                    imagen = Properties.Resources.dos;
+                    break;
+
+                case 3:
+                    imagen = Properties.Resources.tres;
+                    break;
+
+                case 4:
+                    imagen = Properties.Resources.cuatro;
+                    break;
+
+                case 5:
+                    imagen = Properties.Resources.cinco;
+                    break;
+
+                case 6:
+                    imagen = Properties.Resources.seis;
+                    break;
+
+                case 7:
+                    imagen = Properties.Resources.siete;
+                    break;
+
+                case 8:
+                    imagen = Properties.Resources.ocho;
+                    break;
+
+                case 9:
+                    imagen = Properties.Resources.nueve;
+                    break;
+            }
+
+            asignarImg(imagen);
+        }
+
         public void asignar(int lugar)
         {
+            
             if(lugar == 1)
             {
-                ColaEspera.Mostrar();
+                int tipo = ColaEspera.getTipoFirst();
                 ColaEspera.extraerPrimero();
+                imagen(tipo);
                 total--;
                 primero.Image = segundo.Image;
                 segundo.Image = tercero.Image;
