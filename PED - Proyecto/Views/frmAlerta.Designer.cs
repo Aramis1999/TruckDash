@@ -67,10 +67,10 @@
             // 
             this.btnEncolar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnEncolar.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnEncolar.Font = new System.Drawing.Font("Arial Narrow", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEncolar.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEncolar.Location = new System.Drawing.Point(255, 214);
             this.btnEncolar.Name = "btnEncolar";
-            this.btnEncolar.Size = new System.Drawing.Size(162, 63);
+            this.btnEncolar.Size = new System.Drawing.Size(215, 63);
             this.btnEncolar.TabIndex = 100;
             this.btnEncolar.Text = "Aceptar";
             this.btnEncolar.UseVisualStyleBackColor = false;

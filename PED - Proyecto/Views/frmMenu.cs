@@ -42,9 +42,9 @@ namespace PED___Proyecto
             pfc.AddMemoryFont(data, fontLength);
 
             lblCreditos.Font = new Font(pfc.Families[0], lblCreditos.Font.Size);
-            lblFoodash.Font = new Font(pfc.Families[0], lblCreditos.Font.Size);
-            lblOpciones.Font = new Font(pfc.Families[0], lblCreditos.Font.Size);
-            lblSalir.Font = new Font(pfc.Families[0], lblCreditos.Font.Size);
+            lblFoodash.Font = new Font(pfc.Families[0], lblFoodash.Font.Size);
+            lblOpciones.Font = new Font(pfc.Families[0], lblOpciones.Font.Size);
+            lblSalir.Font = new Font(pfc.Families[0], lblSalir.Font.Size);
         }
 
         private void Form1_Load(object sender, EventArgs e)

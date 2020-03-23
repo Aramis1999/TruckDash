@@ -8,7 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using PED___Proyecto.Class;
-
+using System.Drawing.Text;
+using System.Runtime.InteropServices;
 
 namespace PED___Proyecto.Views
 {
@@ -166,7 +167,6 @@ namespace PED___Proyecto.Views
 
         private void frmAmbiente_Load(object sender, EventArgs e)
         {
-
         }
 
 
