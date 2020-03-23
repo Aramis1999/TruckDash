@@ -14,10 +14,26 @@ namespace PED___Proyecto.Class
         private Cliente silla2;
         private int estado;
 
-        public int Id { get => id; set => id = value; }
-        public Cliente Silla1 { get => silla1; set => silla1 = value; }
-        public Cliente Silla2 { get => silla2; set => silla2 = value; }
-        public int Estado { get => estado; set => estado = value; }
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
+        public Cliente Silla1
+        {
+            get { return silla1; }
+            set { silla1 = value; }
+        }
+        public Cliente Silla2
+        {
+            get { return silla2; }
+            set { silla2 = value; }
+        }
+        public int Estado
+        {
+            get { return estado; }
+            set { estado = value; }
+        }
 
         public void asignarMesa(Cliente cliente)
         {

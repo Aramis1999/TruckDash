@@ -83,3 +83,5 @@ C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED - Proyecto.exe
 C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED - Proyecto.pdb
 C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Views.frmComida.resources
 C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Views.frmLugarComer.resources
+C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Views.frmComida.resources
+C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Views.frmLugarComer.resources

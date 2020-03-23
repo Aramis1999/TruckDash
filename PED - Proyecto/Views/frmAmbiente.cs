@@ -392,8 +392,19 @@ namespace PED___Proyecto.Views
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            frmLugarComer form = new frmLugarComer();
-            form.Show();
+            int valor;
+            using (frmLugarComer alerta = new frmLugarComer())
+            {
+                if (alerta.ShowDialog() == System.Windows.Forms.DialogResult.Yes)
+                {
+                    valor = 1;
+                }else
+                {
+                    valor = 0;
+                }
+            }
+            MessageBox.Show(valor.ToString());
+            asignar(valor);
         }
     }
 }

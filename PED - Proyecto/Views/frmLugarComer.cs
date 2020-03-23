@@ -18,6 +18,7 @@ namespace PED___Proyecto.Views
             this.CenterToScreen();
         }
 
+
         private void pNo_MouseLeave(object sender, EventArgs e)
         {
             pNo.ForeColor = Color.Black;
@@ -45,16 +46,17 @@ namespace PED___Proyecto.Views
         frmAmbiente frm = new frmAmbiente();
         private void pNo_MouseClick(object sender, MouseEventArgs e)
         {
-
-            frm.asignar(0);
-            this.Hide();
-
+            this.DialogResult = DialogResult.No;
         }
 
         private void pSi_MouseClick(object sender, MouseEventArgs e)
         {
-            frm.asignar(1);
-            this.Hide();
+            this.DialogResult = DialogResult.Yes;
+        }
+
+        private void pSi_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
