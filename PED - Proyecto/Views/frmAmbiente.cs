@@ -148,7 +148,7 @@ namespace PED___Proyecto.Views
                 segundo.Image = tercero.Image;
                 tercero.Image = cuarto.Image;
                 cuarto.Image = null;
-                ColaEspera.Mostrar();
+                //ColaEspera.Mostrar();
             }
             else
             {
@@ -469,7 +469,7 @@ namespace PED___Proyecto.Views
             btnEncolar.Visible = true;
             btnDesccolar.Visible = true;
             btnAtender.Visible = true;
-            ColaEspera.Mostrar();
+           // ColaEspera.Mostrar();
         }
 
         private void desencolar()
@@ -480,7 +480,7 @@ namespace PED___Proyecto.Views
             segundo.Image = tercero.Image;
             tercero.Image = cuarto.Image;
             cuarto.Image = null;
-            ColaEspera.Mostrar();
+           // ColaEspera.Mostrar();
         }
 
         private void btnDesccolar_Click(object sender, EventArgs e)
@@ -491,7 +491,7 @@ namespace PED___Proyecto.Views
         private void btnEncolar_Click(object sender, EventArgs e)
         {
             Encolar();
-            ColaEspera.Mostrar();
+           // ColaEspera.Mostrar();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -507,7 +507,7 @@ namespace PED___Proyecto.Views
                     valor = 0;
                 }
             }
-            MessageBox.Show(valor.ToString());
+            //MessageBox.Show(valor.ToString());
             asignar(valor);
         }
     }
