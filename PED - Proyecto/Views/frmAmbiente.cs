@@ -469,6 +469,7 @@ namespace PED___Proyecto.Views
             btnEncolar.Visible = true;
             btnDesccolar.Visible = true;
             btnAtender.Visible = true;
+            btnVentas.Visible = true;
            // ColaEspera.Mostrar();
         }
 
@@ -494,6 +495,9 @@ namespace PED___Proyecto.Views
            // ColaEspera.Mostrar();
         }
 
+
+        frmComida food = new frmComida();
+        List<Comida> comi = new List<Comida>();
         private void button1_Click_1(object sender, EventArgs e)
         {
             int valor;
@@ -502,13 +506,28 @@ namespace PED___Proyecto.Views
                 if (alerta.ShowDialog() == System.Windows.Forms.DialogResult.Yes)
                 {
                     valor = 1;
+                    
                 }else
                 {
                     valor = 0;
                 }
             }
-            //MessageBox.Show(valor.ToString());
             asignar(valor);
+            food.Show();
+            food.pasado += Food_pasado;
+
+        }
+
+        private void Food_pasado(Comida comida)
+        {
+            comi.Add(comida);
+            MessageBox.Show("Agregue la comida");
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            frmVentas ventas = new frmVentas(comi);
+            ventas.Show();
         }
     }
 }

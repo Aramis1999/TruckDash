@@ -49,6 +49,7 @@
     <Compile Include="Class\Asignar.cs" />
     <Compile Include="Class\Cliente.cs" />
     <Compile Include="Class\Cola.cs" />
+    <Compile Include="Class\Comida.cs" />
     <Compile Include="Class\Mesa.cs" />
     <Compile Include="Class\Nodo.cs" />
     <Compile Include="Views\frmAlerta.cs">
@@ -95,6 +96,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\frmVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmVentas.Designer.cs">
+      <DependentUpon>frmVentas.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Views\frmAlerta.resx">
       <DependentUpon>frmAlerta.cs</DependentUpon>
     </EmbeddedResource>
@@ -126,6 +133,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Views\frmVentas.resx">
+      <DependentUpon>frmVentas.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

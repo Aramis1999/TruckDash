@@ -14,14 +14,18 @@ namespace PED___Proyecto.Views
     
     public partial class frmComida : Form
     {
+
+        Comida comida = new Comida();
+
+        public delegate void pasarComida(Comida comida);
+        public event pasarComida pasado;
+
         public frmComida()
         {
             InitializeComponent();
             this.CenterToScreen();
         }
 
-        Comida c = new Comida();
-       
         private void pHelado_MouseLeave(object sender, EventArgs e)
         {
             pHelado.ForeColor = Color.Black;
@@ -144,74 +148,88 @@ namespace PED___Proyecto.Views
 
         private void pVolver_MouseClick(object sender, MouseEventArgs e)
         {
-            this.Close();
+            this.Hide();
         }
 
-        private void frmComida_Load(object sender, EventArgs e)
+        private void pHelado_MouseClick(object sender, MouseEventArgs e)
         {
-            
+            comida.Nombre = "Copa de Helado";
+            comida.Precio = 3.25;
+            comida.Tipo ="Postre";
+            pasado(comida);
+            this.Hide();
         }
 
-        private void pPapas_Paint(object sender, PaintEventArgs e)
+        private void pCrepe_MouseClick(object sender, MouseEventArgs e)
         {
-            c.Nombre = "papas";
-            c.Precio = "$2.00";
-            c.Tipo = "entrada";        }
-
-        private void pBrochetas_Paint(object sender, PaintEventArgs e)
-        {
-            c.Nombre = "Brochetas";
-            c.Precio = "$2.50";
-            c.Tipo = "entrada";
+            comida.Nombre = "Crepe dulce";
+            comida.Precio = 3.75;
+            comida.Tipo = "Postre";
+            pasado(comida);
+            this.Hide();
         }
 
-        private void pHelado_Paint(object sender, PaintEventArgs e)
+        private void pPapas_MouseClick(object sender, MouseEventArgs e)
         {
-            c.Nombre = "Copa de helado";
-            c.Precio = "$3.25";
-            c.Tipo = "postre";
+            comida.Nombre = "Papas fritas";
+            comida.Precio = 2.00;
+            comida.Tipo = "Entrada";
+            pasado(comida);
+            this.Hide();
         }
 
-        private void pCrepe_Paint(object sender, PaintEventArgs e)
+        private void pBrochetas_MouseClick(object sender, MouseEventArgs e)
         {
-            c.Nombre = "Crepe dulce";
-            c.Precio = "$3.75";
-            c.Tipo = "postre";
+            comida.Nombre = "Brochetas";
+            comida.Precio = 2.50;
+            comida.Tipo = "Entrada";
+            pasado(comida);
+            this.Hide();
         }
 
-        private void pRefresco_Paint(object sender, PaintEventArgs e)
+        private void pRefresco_MouseClick(object sender, MouseEventArgs e)
         {
-            c.Nombre = "Refresco natural";
-            c.Tipo = "bebidas";
-            c.Precio = "$1.75";
+            comida.Nombre = "Refresco natural";
+            comida.Precio = 1.75;
+            comida.Tipo = "Bebida";
+            pasado(comida);
+            this.Hide();
         }
 
-        private void pGaseosa_Paint(object sender, PaintEventArgs e)
+        private void pGaseosa_MouseClick(object sender, MouseEventArgs e)
         {
-            c.Nombre = "Gaseosa";
-            c.Tipo = "bebida";
-            c.Precio = "$1.25";
+            comida.Nombre = "Gaseosa";
+            comida.Precio = 1.25;
+            comida.Tipo = "Bebida";
+            pasado(comida);
+            this.Hide();
         }
 
-        private void pHotDog_Paint(object sender, PaintEventArgs e)
+        private void pHotDog_MouseClick(object sender, MouseEventArgs e)
         {
-            c.Nombre = "Hot dog";
-            c.Tipo = "Plato fuerte";
-            c.Precio = "$4.25";
+            comida.Nombre = "HotDog";
+            comida.Precio = 4.25;
+            comida.Tipo = "Plato fuerte";
+            pasado(comida);
+            this.Hide();
         }
 
-        private void pHamburguesa_Paint(object sender, PaintEventArgs e)
+        private void pHamburguesa_MouseClick(object sender, MouseEventArgs e)
         {
-            c.Nombre = "Hamburguesa";
-            c.Tipo = "Plato fuerte";
-            c.Precio = "$5.75";
+            comida.Nombre = "Hamburguesa";
+            comida.Precio = 5.75;
+            comida.Tipo = "Plato fuerte";
+            pasado(comida);
+            this.Hide();
         }
 
-        private void pPizza_Paint(object sender, PaintEventArgs e)
+        private void pPizza_MouseClick(object sender, MouseEventArgs e)
         {
-            c.Nombre = "Pizza";
-            c.Tipo = "plato fuerte";
-            c.Precio = "$8.50";
+            comida.Nombre = "Pizza";
+            comida.Precio = 8.50;
+            comida.Tipo = "Plato fuerte";
+            pasado(comida);
+            this.Hide();
         }
     }
 }

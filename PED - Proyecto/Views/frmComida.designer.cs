@@ -50,7 +50,7 @@
             this.pHelado.Name = "pHelado";
             this.pHelado.Size = new System.Drawing.Size(297, 117);
             this.pHelado.TabIndex = 0;
-            this.pHelado.Paint += new System.Windows.Forms.PaintEventHandler(this.pHelado_Paint);
+            this.pHelado.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pHelado_MouseClick);
             this.pHelado.MouseEnter += new System.EventHandler(this.pHelado_MouseEnter);
             this.pHelado.MouseLeave += new System.EventHandler(this.pHelado_MouseLeave);
             // 
@@ -61,7 +61,7 @@
             this.pCrepe.Name = "pCrepe";
             this.pCrepe.Size = new System.Drawing.Size(297, 117);
             this.pCrepe.TabIndex = 1;
-            this.pCrepe.Paint += new System.Windows.Forms.PaintEventHandler(this.pCrepe_Paint);
+            this.pCrepe.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pCrepe_MouseClick);
             this.pCrepe.MouseEnter += new System.EventHandler(this.pCrepe_MouseEnter);
             this.pCrepe.MouseLeave += new System.EventHandler(this.pCrepe_MouseLeave);
             // 
@@ -72,7 +72,7 @@
             this.pPapas.Name = "pPapas";
             this.pPapas.Size = new System.Drawing.Size(297, 104);
             this.pPapas.TabIndex = 1;
-            this.pPapas.Paint += new System.Windows.Forms.PaintEventHandler(this.pPapas_Paint);
+            this.pPapas.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pPapas_MouseClick);
             this.pPapas.MouseEnter += new System.EventHandler(this.pPapas_MouseEnter);
             this.pPapas.MouseLeave += new System.EventHandler(this.pPapas_MouseLeave);
             // 
@@ -83,7 +83,7 @@
             this.pBrochetas.Name = "pBrochetas";
             this.pBrochetas.Size = new System.Drawing.Size(297, 117);
             this.pBrochetas.TabIndex = 1;
-            this.pBrochetas.Paint += new System.Windows.Forms.PaintEventHandler(this.pBrochetas_Paint);
+            this.pBrochetas.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pBrochetas_MouseClick);
             this.pBrochetas.MouseEnter += new System.EventHandler(this.pBrochetas_MouseEnter);
             this.pBrochetas.MouseLeave += new System.EventHandler(this.pBrochetas_MouseLeave);
             // 
@@ -95,7 +95,7 @@
             this.pRefresco.Name = "pRefresco";
             this.pRefresco.Size = new System.Drawing.Size(297, 105);
             this.pRefresco.TabIndex = 2;
-            this.pRefresco.Paint += new System.Windows.Forms.PaintEventHandler(this.pRefresco_Paint);
+            this.pRefresco.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pRefresco_MouseClick);
             this.pRefresco.MouseEnter += new System.EventHandler(this.pRefresco_MouseEnter);
             this.pRefresco.MouseLeave += new System.EventHandler(this.pRefresco_MouseLeave);
             // 
@@ -114,7 +114,7 @@
             this.pGaseosa.Name = "pGaseosa";
             this.pGaseosa.Size = new System.Drawing.Size(297, 117);
             this.pGaseosa.TabIndex = 2;
-            this.pGaseosa.Paint += new System.Windows.Forms.PaintEventHandler(this.pGaseosa_Paint);
+            this.pGaseosa.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pGaseosa_MouseClick);
             this.pGaseosa.MouseEnter += new System.EventHandler(this.pGaseosa_MouseEnter);
             this.pGaseosa.MouseLeave += new System.EventHandler(this.pGaseosa_MouseLeave);
             // 
@@ -125,7 +125,7 @@
             this.pHotDog.Name = "pHotDog";
             this.pHotDog.Size = new System.Drawing.Size(177, 200);
             this.pHotDog.TabIndex = 3;
-            this.pHotDog.Paint += new System.Windows.Forms.PaintEventHandler(this.pHotDog_Paint);
+            this.pHotDog.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pHotDog_MouseClick);
             this.pHotDog.MouseEnter += new System.EventHandler(this.pHotDog_MouseEnter);
             this.pHotDog.MouseLeave += new System.EventHandler(this.pHotDog_MouseLeave);
             // 
@@ -136,7 +136,7 @@
             this.pHamburguesa.Name = "pHamburguesa";
             this.pHamburguesa.Size = new System.Drawing.Size(177, 200);
             this.pHamburguesa.TabIndex = 4;
-            this.pHamburguesa.Paint += new System.Windows.Forms.PaintEventHandler(this.pHamburguesa_Paint);
+            this.pHamburguesa.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pHamburguesa_MouseClick);
             this.pHamburguesa.MouseEnter += new System.EventHandler(this.pHamburguesa_MouseEnter);
             this.pHamburguesa.MouseLeave += new System.EventHandler(this.pHamburguesa_MouseLeave);
             // 
@@ -147,7 +147,7 @@
             this.pPizza.Name = "pPizza";
             this.pPizza.Size = new System.Drawing.Size(177, 200);
             this.pPizza.TabIndex = 4;
-            this.pPizza.Paint += new System.Windows.Forms.PaintEventHandler(this.pPizza_Paint);
+            this.pPizza.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pPizza_MouseClick);
             this.pPizza.MouseEnter += new System.EventHandler(this.pPizza_MouseEnter);
             this.pPizza.MouseLeave += new System.EventHandler(this.pPizza_MouseLeave);
             // 
@@ -183,7 +183,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmComida";
             this.Text = "Comida";
-            this.Load += new System.EventHandler(this.frmComida_Load);
             this.pRefresco.ResumeLayout(false);
             this.ResumeLayout(false);
 
