@@ -7,9 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PED___Proyecto.Class;
 
 namespace PED___Proyecto.Views
 {
+    
     public partial class frmComida : Form
     {
         public frmComida()
@@ -18,6 +20,8 @@ namespace PED___Proyecto.Views
             this.CenterToScreen();
         }
 
+        Comida c = new Comida();
+       
         private void pHelado_MouseLeave(object sender, EventArgs e)
         {
             pHelado.ForeColor = Color.Black;
@@ -145,7 +149,69 @@ namespace PED___Proyecto.Views
 
         private void frmComida_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        private void pPapas_Paint(object sender, PaintEventArgs e)
+        {
+            c.Nombre = "papas";
+            c.Precio = "$2.00";
+            c.Tipo = "entrada";        }
+
+        private void pBrochetas_Paint(object sender, PaintEventArgs e)
+        {
+            c.Nombre = "Brochetas";
+            c.Precio = "$2.50";
+            c.Tipo = "entrada";
+        }
+
+        private void pHelado_Paint(object sender, PaintEventArgs e)
+        {
+            c.Nombre = "Copa de helado";
+            c.Precio = "$3.25";
+            c.Tipo = "postre";
+        }
+
+        private void pCrepe_Paint(object sender, PaintEventArgs e)
+        {
+            c.Nombre = "Crepe dulce";
+            c.Precio = "$3.75";
+            c.Tipo = "postre";
+        }
+
+        private void pRefresco_Paint(object sender, PaintEventArgs e)
+        {
+            c.Nombre = "Refresco natural";
+            c.Tipo = "bebidas";
+            c.Precio = "$1.75";
+        }
+
+        private void pGaseosa_Paint(object sender, PaintEventArgs e)
+        {
+            c.Nombre = "Gaseosa";
+            c.Tipo = "bebida";
+            c.Precio = "$1.25";
+        }
+
+        private void pHotDog_Paint(object sender, PaintEventArgs e)
+        {
+            c.Nombre = "Hot dog";
+            c.Tipo = "Plato fuerte";
+            c.Precio = "$4.25";
+        }
+
+        private void pHamburguesa_Paint(object sender, PaintEventArgs e)
+        {
+            c.Nombre = "Hamburguesa";
+            c.Tipo = "Plato fuerte";
+            c.Precio = "$5.75";
+        }
+
+        private void pPizza_Paint(object sender, PaintEventArgs e)
+        {
+            c.Nombre = "Pizza";
+            c.Tipo = "plato fuerte";
+            c.Precio = "$8.50";
         }
     }
 }
