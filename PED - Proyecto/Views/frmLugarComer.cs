@@ -49,10 +49,11 @@ namespace PED___Proyecto.Views
         }
 
        
+
         private void pNo_MouseClick(object sender, MouseEventArgs e)
         {
+
             this.DialogResult = DialogResult.No;
-            
         }
 
         private void pSi_MouseClick(object sender, MouseEventArgs e)

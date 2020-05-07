@@ -15,11 +15,8 @@ namespace PED___Proyecto.Views
     public partial class frmComida : Form
     {
 
-        Comida comida = new Comida();
-
         public delegate void pasarComida(Comida comida);
         public event pasarComida pasado;
-
         public frmComida()
         {
             InitializeComponent();
@@ -151,8 +148,11 @@ namespace PED___Proyecto.Views
             this.Hide();
         }
 
+        
+
         private void pHelado_MouseClick(object sender, MouseEventArgs e)
         {
+            Comida comida = new Comida();
             comida.Nombre = "Copa de Helado";
             comida.Precio = 3.25;
             comida.Tipo ="Postre";
@@ -162,6 +162,7 @@ namespace PED___Proyecto.Views
 
         private void pCrepe_MouseClick(object sender, MouseEventArgs e)
         {
+            Comida comida = new Comida();
             comida.Nombre = "Crepe dulce";
             comida.Precio = 3.75;
             comida.Tipo = "Postre";
@@ -171,6 +172,7 @@ namespace PED___Proyecto.Views
 
         private void pPapas_MouseClick(object sender, MouseEventArgs e)
         {
+            Comida comida = new Comida(); ;
             comida.Nombre = "Papas fritas";
             comida.Precio = 2.00;
             comida.Tipo = "Entrada";
@@ -180,6 +182,7 @@ namespace PED___Proyecto.Views
 
         private void pBrochetas_MouseClick(object sender, MouseEventArgs e)
         {
+            Comida comida = new Comida();
             comida.Nombre = "Brochetas";
             comida.Precio = 2.50;
             comida.Tipo = "Entrada";
@@ -189,6 +192,7 @@ namespace PED___Proyecto.Views
 
         private void pRefresco_MouseClick(object sender, MouseEventArgs e)
         {
+            Comida comida = new Comida();
             comida.Nombre = "Refresco natural";
             comida.Precio = 1.75;
             comida.Tipo = "Bebida";
@@ -198,6 +202,7 @@ namespace PED___Proyecto.Views
 
         private void pGaseosa_MouseClick(object sender, MouseEventArgs e)
         {
+            Comida comida = new Comida();
             comida.Nombre = "Gaseosa";
             comida.Precio = 1.25;
             comida.Tipo = "Bebida";
@@ -207,6 +212,7 @@ namespace PED___Proyecto.Views
 
         private void pHotDog_MouseClick(object sender, MouseEventArgs e)
         {
+            Comida comida = new Comida();
             comida.Nombre = "HotDog";
             comida.Precio = 4.25;
             comida.Tipo = "Plato fuerte";
@@ -216,6 +222,7 @@ namespace PED___Proyecto.Views
 
         private void pHamburguesa_MouseClick(object sender, MouseEventArgs e)
         {
+            Comida comida = new Comida(); ;
             comida.Nombre = "Hamburguesa";
             comida.Precio = 5.75;
             comida.Tipo = "Plato fuerte";
@@ -225,6 +232,7 @@ namespace PED___Proyecto.Views
 
         private void pPizza_MouseClick(object sender, MouseEventArgs e)
         {
+            Comida comida = new Comida();
             comida.Nombre = "Pizza";
             comida.Precio = 8.50;
             comida.Tipo = "Plato fuerte";

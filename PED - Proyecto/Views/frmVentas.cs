@@ -13,19 +13,23 @@ namespace PED___Proyecto.Views
 {
     public partial class frmVentas : Form
     {
-        List<Comida> ventas = new List<Comida>();
+        
         public frmVentas(List<Comida> comi)
         {
             InitializeComponent();
-            ventas = comi;
+            dgvVentas.DataSource = comi;
         }
 
         private void frmVentas_Load(object sender, EventArgs e)
         {
-            dgvVentas.DataSource = ventas;
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void pictureBox18_Click(object sender, EventArgs e)
         {
             this.Hide();
         }

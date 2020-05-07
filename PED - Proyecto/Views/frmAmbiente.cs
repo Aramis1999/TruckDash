@@ -143,16 +143,12 @@ namespace PED___Proyecto.Views
                 int tipo = ColaEspera.getTipoFirst();
                 ColaEspera.extraerPrimero();
                 imagen(tipo);
-                total--;
-                primero.Image = segundo.Image;
-                segundo.Image = tercero.Image;
-                tercero.Image = cuarto.Image;
-                cuarto.Image = null;
-                //ColaEspera.Mostrar();
+                desencolar();
             }
             else
             {
                 desencolar();
+
             }
         }
 
@@ -487,6 +483,7 @@ namespace PED___Proyecto.Views
         private void btnDesccolar_Click(object sender, EventArgs e)
         {
             desencolar();
+
         }
 
         private void btnEncolar_Click(object sender, EventArgs e)
@@ -495,9 +492,8 @@ namespace PED___Proyecto.Views
            // ColaEspera.Mostrar();
         }
 
-
+        List<Comida> comidas = new List<Comida>();
         frmComida food = new frmComida();
-        List<Comida> comi = new List<Comida>();
         private void button1_Click_1(object sender, EventArgs e)
         {
             int valor;
@@ -507,26 +503,27 @@ namespace PED___Proyecto.Views
                 {
                     valor = 1;
                     
-                }else
+
+                }
+                else
                 {
                     valor = 0;
+                    
                 }
             }
             asignar(valor);
             food.Show();
             food.pasado += Food_pasado;
-
         }
 
         private void Food_pasado(Comida comida)
         {
-            comi.Add(comida);
-            MessageBox.Show("Agregue la comida");
+            comidas.Add(comida);
         }
 
         private void button1_Click_2(object sender, EventArgs e)
         {
-            frmVentas ventas = new frmVentas(comi);
+            frmVentas ventas = new frmVentas(comidas);
             ventas.Show();
         }
     }

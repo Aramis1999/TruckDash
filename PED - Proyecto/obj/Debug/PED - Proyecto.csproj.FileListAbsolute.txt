@@ -68,7 +68,6 @@ C:\Users\arami\Desktop\TruckDash\PED - Proyecto\bin\Debug\PED - Proyecto.exe
 C:\Users\arami\Desktop\TruckDash\PED - Proyecto\bin\Debug\PED - Proyecto.pdb
 C:\Users\arami\Desktop\TruckDash\PED - Proyecto\bin\Debug\Interop.WMPLib.dll
 C:\Users\arami\Desktop\TruckDash\PED - Proyecto\bin\Debug\AxInterop.WMPLib.dll
-C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED - Proyecto.csprojAssemblyReference.cache
 C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\Interop.WMPLib.dll
 C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\AxInterop.WMPLib.dll
 C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED - Proyecto.csproj.ResolveComReference.cache
