@@ -111,7 +111,7 @@
             this.pictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
             this.pictureBox23.Location = new System.Drawing.Point(761, 528);
-            this.pictureBox23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox23.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(38, 36);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -125,7 +125,7 @@
             this.pictureBox20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
             this.pictureBox20.Location = new System.Drawing.Point(9, 410);
-            this.pictureBox20.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox20.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(80, 70);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -138,7 +138,7 @@
             this.pictureBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
             this.pictureBox21.Location = new System.Drawing.Point(9, 318);
-            this.pictureBox21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox21.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(80, 70);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -151,7 +151,7 @@
             this.pictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
             this.pictureBox22.Location = new System.Drawing.Point(9, 231);
-            this.pictureBox22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(80, 70);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -164,7 +164,7 @@
             this.pictureBox18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
             this.pictureBox18.Location = new System.Drawing.Point(9, 528);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(38, 36);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -178,36 +178,39 @@
             this.pictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
             this.pictureBox15.Location = new System.Drawing.Point(629, 378);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox15.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(95, 70);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox15.TabIndex = 79;
             this.pictureBox15.TabStop = false;
+            this.pictureBox15.Click += new System.EventHandler(this.pictureBox15_Click);
             // 
             // silla8
             // 
             this.silla8.BackColor = System.Drawing.Color.Transparent;
             this.silla8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.silla8.Location = new System.Drawing.Point(704, 378);
-            this.silla8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.silla8.Margin = new System.Windows.Forms.Padding(2);
             this.silla8.Name = "silla8";
             this.silla8.Size = new System.Drawing.Size(95, 70);
             this.silla8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.silla8.TabIndex = 78;
             this.silla8.TabStop = false;
+            this.silla8.Click += new System.EventHandler(this.silla8_Click);
             // 
             // silla7
             // 
             this.silla7.BackColor = System.Drawing.Color.Transparent;
             this.silla7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.silla7.Location = new System.Drawing.Point(557, 378);
-            this.silla7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.silla7.Margin = new System.Windows.Forms.Padding(2);
             this.silla7.Name = "silla7";
             this.silla7.Size = new System.Drawing.Size(90, 70);
             this.silla7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.silla7.TabIndex = 77;
             this.silla7.TabStop = false;
+            this.silla7.Click += new System.EventHandler(this.silla7_Click);
             // 
             // pictureBox10
             // 
@@ -215,36 +218,39 @@
             this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
             this.pictureBox10.Location = new System.Drawing.Point(629, 231);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(95, 70);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 76;
             this.pictureBox10.TabStop = false;
+            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
             // 
             // silla6
             // 
             this.silla6.BackColor = System.Drawing.Color.Transparent;
             this.silla6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.silla6.Location = new System.Drawing.Point(704, 231);
-            this.silla6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.silla6.Margin = new System.Windows.Forms.Padding(2);
             this.silla6.Name = "silla6";
             this.silla6.Size = new System.Drawing.Size(95, 70);
             this.silla6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.silla6.TabIndex = 75;
             this.silla6.TabStop = false;
+            this.silla6.Click += new System.EventHandler(this.silla6_Click);
             // 
             // silla5
             // 
             this.silla5.BackColor = System.Drawing.Color.Transparent;
             this.silla5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.silla5.Location = new System.Drawing.Point(557, 231);
-            this.silla5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.silla5.Margin = new System.Windows.Forms.Padding(2);
             this.silla5.Name = "silla5";
             this.silla5.Size = new System.Drawing.Size(90, 70);
             this.silla5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.silla5.TabIndex = 74;
             this.silla5.TabStop = false;
+            this.silla5.Click += new System.EventHandler(this.silla5_Click);
             // 
             // pictureBox5
             // 
@@ -252,36 +258,39 @@
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(334, 231);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(95, 70);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 73;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // silla2
             // 
             this.silla2.BackColor = System.Drawing.Color.Transparent;
             this.silla2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.silla2.Location = new System.Drawing.Point(408, 231);
-            this.silla2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.silla2.Margin = new System.Windows.Forms.Padding(2);
             this.silla2.Name = "silla2";
             this.silla2.Size = new System.Drawing.Size(95, 70);
             this.silla2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.silla2.TabIndex = 72;
             this.silla2.TabStop = false;
+            this.silla2.Click += new System.EventHandler(this.silla2_Click);
             // 
             // silla1
             // 
             this.silla1.BackColor = System.Drawing.Color.Transparent;
             this.silla1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.silla1.Location = new System.Drawing.Point(262, 231);
-            this.silla1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.silla1.Margin = new System.Windows.Forms.Padding(2);
             this.silla1.Name = "silla1";
             this.silla1.Size = new System.Drawing.Size(90, 70);
             this.silla1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.silla1.TabIndex = 71;
             this.silla1.TabStop = false;
+            this.silla1.Click += new System.EventHandler(this.silla1_Click);
             // 
             // pictureBox14
             // 
@@ -289,36 +298,39 @@
             this.pictureBox14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
             this.pictureBox14.Location = new System.Drawing.Point(324, 378);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(95, 70);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 70;
             this.pictureBox14.TabStop = false;
+            this.pictureBox14.Click += new System.EventHandler(this.pictureBox14_Click);
             // 
             // silla4
             // 
             this.silla4.BackColor = System.Drawing.Color.Transparent;
             this.silla4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.silla4.Location = new System.Drawing.Point(398, 378);
-            this.silla4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.silla4.Margin = new System.Windows.Forms.Padding(2);
             this.silla4.Name = "silla4";
             this.silla4.Size = new System.Drawing.Size(95, 70);
             this.silla4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.silla4.TabIndex = 69;
             this.silla4.TabStop = false;
+            this.silla4.Click += new System.EventHandler(this.silla4_Click);
             // 
             // silla3
             // 
             this.silla3.BackColor = System.Drawing.Color.Transparent;
             this.silla3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.silla3.Location = new System.Drawing.Point(252, 378);
-            this.silla3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.silla3.Margin = new System.Windows.Forms.Padding(2);
             this.silla3.Name = "silla3";
             this.silla3.Size = new System.Drawing.Size(90, 70);
             this.silla3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.silla3.TabIndex = 68;
             this.silla3.TabStop = false;
+            this.silla3.Click += new System.EventHandler(this.silla3_Click);
             // 
             // pictureBox4
             // 
@@ -326,7 +338,7 @@
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(93, 410);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(80, 70);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -339,7 +351,7 @@
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(93, 318);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(80, 70);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -352,7 +364,7 @@
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(93, 231);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(80, 70);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -364,7 +376,7 @@
             this.tercero.BackColor = System.Drawing.Color.Transparent;
             this.tercero.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tercero.Location = new System.Drawing.Point(94, 88);
-            this.tercero.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tercero.Margin = new System.Windows.Forms.Padding(2);
             this.tercero.Name = "tercero";
             this.tercero.Size = new System.Drawing.Size(80, 70);
             this.tercero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -376,7 +388,7 @@
             this.segundo.BackColor = System.Drawing.Color.Transparent;
             this.segundo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.segundo.Location = new System.Drawing.Point(185, 88);
-            this.segundo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.segundo.Margin = new System.Windows.Forms.Padding(2);
             this.segundo.Name = "segundo";
             this.segundo.Size = new System.Drawing.Size(80, 70);
             this.segundo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -388,7 +400,7 @@
             this.primero.BackColor = System.Drawing.Color.Transparent;
             this.primero.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.primero.Location = new System.Drawing.Point(279, 88);
-            this.primero.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.primero.Margin = new System.Windows.Forms.Padding(2);
             this.primero.Name = "primero";
             this.primero.Size = new System.Drawing.Size(80, 70);
             this.primero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -401,7 +413,7 @@
             this.uno.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.uno.Image = global::PED___Proyecto.Properties.Resources.uno;
             this.uno.Location = new System.Drawing.Point(215, 595);
-            this.uno.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.uno.Margin = new System.Windows.Forms.Padding(2);
             this.uno.Name = "uno";
             this.uno.Size = new System.Drawing.Size(80, 70);
             this.uno.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -413,7 +425,7 @@
             this.cuarto.BackColor = System.Drawing.Color.Transparent;
             this.cuarto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.cuarto.Location = new System.Drawing.Point(9, 88);
-            this.cuarto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cuarto.Margin = new System.Windows.Forms.Padding(2);
             this.cuarto.Name = "cuarto";
             this.cuarto.Size = new System.Drawing.Size(80, 70);
             this.cuarto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -426,7 +438,7 @@
             this.dos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.dos.Image = global::PED___Proyecto.Properties.Resources.dos;
             this.dos.Location = new System.Drawing.Point(215, 593);
-            this.dos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dos.Margin = new System.Windows.Forms.Padding(2);
             this.dos.Name = "dos";
             this.dos.Size = new System.Drawing.Size(80, 70);
             this.dos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -439,7 +451,7 @@
             this.tres.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tres.Image = global::PED___Proyecto.Properties.Resources.tres;
             this.tres.Location = new System.Drawing.Point(215, 593);
-            this.tres.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tres.Margin = new System.Windows.Forms.Padding(2);
             this.tres.Name = "tres";
             this.tres.Size = new System.Drawing.Size(80, 70);
             this.tres.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -452,7 +464,7 @@
             this.cuatro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.cuatro.Image = global::PED___Proyecto.Properties.Resources.cuatro;
             this.cuatro.Location = new System.Drawing.Point(215, 593);
-            this.cuatro.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cuatro.Margin = new System.Windows.Forms.Padding(2);
             this.cuatro.Name = "cuatro";
             this.cuatro.Size = new System.Drawing.Size(80, 70);
             this.cuatro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -465,7 +477,7 @@
             this.cinco.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.cinco.Image = global::PED___Proyecto.Properties.Resources.cinco;
             this.cinco.Location = new System.Drawing.Point(215, 595);
-            this.cinco.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cinco.Margin = new System.Windows.Forms.Padding(2);
             this.cinco.Name = "cinco";
             this.cinco.Size = new System.Drawing.Size(80, 70);
             this.cinco.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -478,7 +490,7 @@
             this.seis.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.seis.Image = global::PED___Proyecto.Properties.Resources.seis;
             this.seis.Location = new System.Drawing.Point(215, 592);
-            this.seis.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.seis.Margin = new System.Windows.Forms.Padding(2);
             this.seis.Name = "seis";
             this.seis.Size = new System.Drawing.Size(80, 70);
             this.seis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -491,7 +503,7 @@
             this.siete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.siete.Image = global::PED___Proyecto.Properties.Resources.siete;
             this.siete.Location = new System.Drawing.Point(215, 592);
-            this.siete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.siete.Margin = new System.Windows.Forms.Padding(2);
             this.siete.Name = "siete";
             this.siete.Size = new System.Drawing.Size(80, 70);
             this.siete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -504,7 +516,7 @@
             this.ocho.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ocho.Image = global::PED___Proyecto.Properties.Resources.ocho;
             this.ocho.Location = new System.Drawing.Point(215, 595);
-            this.ocho.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ocho.Margin = new System.Windows.Forms.Padding(2);
             this.ocho.Name = "ocho";
             this.ocho.Size = new System.Drawing.Size(80, 70);
             this.ocho.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -517,7 +529,7 @@
             this.nueve.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.nueve.Image = global::PED___Proyecto.Properties.Resources.nueve;
             this.nueve.Location = new System.Drawing.Point(215, 594);
-            this.nueve.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nueve.Margin = new System.Windows.Forms.Padding(2);
             this.nueve.Name = "nueve";
             this.nueve.Size = new System.Drawing.Size(80, 70);
             this.nueve.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -538,7 +550,7 @@
             this.btnInicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInicio.Location = new System.Drawing.Point(352, 509);
-            this.btnInicio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnInicio.Margin = new System.Windows.Forms.Padding(2);
             this.btnInicio.Name = "btnInicio";
             this.btnInicio.Size = new System.Drawing.Size(114, 46);
             this.btnInicio.TabIndex = 98;
@@ -551,7 +563,7 @@
             this.btnEncolar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnEncolar.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEncolar.Location = new System.Drawing.Point(302, 509);
-            this.btnEncolar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEncolar.Margin = new System.Windows.Forms.Padding(2);
             this.btnEncolar.Name = "btnEncolar";
             this.btnEncolar.Size = new System.Drawing.Size(97, 39);
             this.btnEncolar.TabIndex = 99;
@@ -565,7 +577,7 @@
             this.btnDesccolar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnDesccolar.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDesccolar.Location = new System.Drawing.Point(418, 509);
-            this.btnDesccolar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDesccolar.Margin = new System.Windows.Forms.Padding(2);
             this.btnDesccolar.Name = "btnDesccolar";
             this.btnDesccolar.Size = new System.Drawing.Size(115, 39);
             this.btnDesccolar.TabIndex = 100;
@@ -579,7 +591,7 @@
             this.btnAtender.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnAtender.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAtender.Location = new System.Drawing.Point(262, 22);
-            this.btnAtender.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAtender.Margin = new System.Windows.Forms.Padding(2);
             this.btnAtender.Name = "btnAtender";
             this.btnAtender.Size = new System.Drawing.Size(106, 39);
             this.btnAtender.TabIndex = 101;
@@ -648,7 +660,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox6);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmAmbiente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmAmbiente";

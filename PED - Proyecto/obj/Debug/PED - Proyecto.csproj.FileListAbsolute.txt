@@ -85,3 +85,4 @@ C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Views.f
 C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Views.frmComida.resources
 C:\Users\Brandongeo\Source\Repos\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Views.frmLugarComer.resources
 C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED___Proyecto.Views.frmVentas.resources
+C:\Users\arami\Desktop\TruckDash\PED - Proyecto\obj\Debug\PED - Proyecto.csprojAssemblyReference.cache

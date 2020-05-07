@@ -526,5 +526,81 @@ namespace PED___Proyecto.Views
             frmVentas ventas = new frmVentas(comidas);
             ventas.Show();
         }
+
+        private void silla1_Click(object sender, EventArgs e)
+        {
+            silla1.Image = null;
+            MessageBox.Show("Silla desocupada");
+        }
+
+        private void silla2_Click(object sender, EventArgs e)
+        {
+            silla2.Image = null;
+            MessageBox.Show("Silla desocupada");
+        }
+
+        private void silla3_Click(object sender, EventArgs e)
+        {
+            silla3.Image = null;
+            MessageBox.Show("Silla desocupada");
+        }
+
+        private void silla4_Click(object sender, EventArgs e)
+        {
+            silla4.Image = null;
+            MessageBox.Show("Silla desocupada");
+        }
+
+        private void silla5_Click(object sender, EventArgs e)
+        {
+            silla5.Image = null;
+            MessageBox.Show("Silla desocupada");
+        }
+
+        private void silla6_Click(object sender, EventArgs e)
+        {
+            silla6.Image = null;
+            MessageBox.Show("Silla desocupada");
+        }
+
+        private void silla7_Click(object sender, EventArgs e)
+        {
+            silla7.Image = null;
+            MessageBox.Show("Silla desocupada");
+        }
+
+        private void silla8_Click(object sender, EventArgs e)
+        {
+            silla8.Image = null;
+            MessageBox.Show("Silla desocupada");
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            silla1.Image = null;
+            silla2.Image = null;
+            MessageBox.Show("Mesa desocupada");
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            silla3.Image = null;
+            silla4.Image = null;
+            MessageBox.Show("Mesa desocupada");
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            silla5.Image = null;
+            silla6.Image = null;
+            MessageBox.Show("Mesa desocupada");
+        }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+            silla7.Image = null;
+            silla8.Image = null;
+            MessageBox.Show("Mesa desocupada");
+        }
     }
 }
