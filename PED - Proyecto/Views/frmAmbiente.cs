@@ -143,7 +143,10 @@ namespace PED___Proyecto.Views
                 int tipo = ColaEspera.getTipoFirst();
                 ColaEspera.extraerPrimero();
                 imagen(tipo);
-                desencolar();
+                primero.Image = segundo.Image;
+                segundo.Image = tercero.Image;
+                tercero.Image = cuarto.Image;
+                cuarto.Image = null;
             }
             else
             {
@@ -502,7 +505,6 @@ namespace PED___Proyecto.Views
                 if (alerta.ShowDialog() == System.Windows.Forms.DialogResult.Yes)
                 {
                     valor = 1;
-                    
 
                 }
                 else
